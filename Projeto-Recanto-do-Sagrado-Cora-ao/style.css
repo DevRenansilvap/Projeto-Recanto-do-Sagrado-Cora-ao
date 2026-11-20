@@ -13,7 +13,7 @@ html {
 
 body {
   font-family: "DM Sans", sans-serif;
-  color: #5c5549;
+  color: #1e242b;
   background: #f8f6f0;
 }
 
@@ -31,7 +31,7 @@ section {
 
 header {
   background: #f8f6f0;
-  padding: 25px 8%;
+  padding: 10px 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,47 +41,49 @@ header {
 
 .logo {
   text-align: center;
-}
-
-.heart {
-  color: #8b9a78;
-  font-size: 30px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo h2 {
-  color: #657354;
-  font-size: 23px;
+  color: #1e242b;
+  text-align: left;
 }
 
 .logo p {
-  font-size: 10px;
+  font-size: 16px;
   margin-top: 5px;
   letter-spacing: 1px;
+}
+.logo img {
+  height: 80px;
 }
 
 nav {
   display: flex;
   gap: 25px;
   flex-wrap: wrap;
+  margin-right: 15px;
 }
 
 nav a {
   color: #5c5549;
   text-decoration: none;
   font-weight: 600;
-  font-size: 14px;
   transition: 0.3s;
 }
 
 nav a:hover {
-  color: #8b9a78;
+  color: #9e2226;
 }
 
 /* BOTÕES */
 
 .btn {
   display: inline-block;
-  background: #7d8d6b;
+  background: #c83e74;
   color: white;
   padding: 15px 30px;
   border-radius: 30px;
@@ -92,20 +94,21 @@ nav a:hover {
 }
 
 .btn:hover {
-  background: #627450;
+  background: #9e2226;
   transform: translateY(-3px);
 }
 
 /* INÍCIO */
 
 .hero {
-  min-height: 570px;
+  min-height: 770px;
   display: flex;
   align-items: center;
   background:
     linear-gradient(90deg, rgba(38, 42, 31, 0.72), rgba(38, 42, 31, 0.15)),
     url(img/banner1.jpg) center/cover no-repeat;
   color: white;
+  padding: 100px;
 }
 
 .hero-content {
@@ -133,8 +136,8 @@ nav a:hover {
 }
 
 .hero .btn {
-  background: #e5d8b9;
-  color: #514b3f;
+  background: #c83e74;
+  color: #ffffff;
 }
 
 /* SOBRE */
@@ -160,7 +163,7 @@ nav a:hover {
 }
 
 .subtitulo {
-  color: #849271;
+  color: #1e242b;
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 3px;
@@ -171,7 +174,7 @@ nav a:hover {
 .galeria h2,
 .contato h2 {
   font-size: 38px;
-  color: #5f7050;
+  color: #1e242b;
   margin: 15px 0 25px;
 }
 
@@ -212,12 +215,12 @@ nav a:hover {
 
 .icone {
   font-size: 40px;
-  color: #879775;
+  color: #4f8a64;
   margin-bottom: 15px;
 }
 
 .card h3 {
-  color: #617251;
+  color: #4f8a64;
   margin-bottom: 12px;
   font-size: 21px;
 }
@@ -375,12 +378,15 @@ nav a:hover {
 /* RODAPÉ */
 
 footer {
+  display: flex;
+  justify-content: space-evenly;
   background: #536248;
   color: white;
   text-align: center;
   padding: 45px 20px;
   display: flex;
-  justify-content: space-evenly;
+  gap: 150px;
+  padding: 40px;
 }
 
 footer h2 {
@@ -404,7 +410,37 @@ footer p {
   font-size: 12px;
   opacity: 0.8;
 }
-
+.informacoes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-left: 30px;
+}
+.informacoes a {
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  gap: 5px;
+  padding: 20px;
+}
+.informacoes a:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px #00000012;
+}
+.mini-cards a {
+  display: flex;
+  align-items: center;
+}
+.mini-cards h3,
+p {
+  text-align: left;
+  padding: 2px;
+}
+.footer-lado-direito h2 {
+  text-align: left;
+  font-size: 1.8rem;
+  font-weight: bolder;
+}
 /* RESPONSIVIDADE */
 
 @media (max-width: 900px) {
