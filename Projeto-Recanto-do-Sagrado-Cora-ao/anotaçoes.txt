@@ -1,0 +1,34 @@
+Requisitos funcionais
+1. Apresentação Institucional (RF01): O site deve exibir uma página ou seção contando a história do lar, sua missão, valores e anos de experiência no cuidado geriátrico.
+2. Apresentação da Equipe Multidisciplinar (RF02): O sistema deve listar os profissionais envolvidos (médicos, enfermeiros, fisioterapeutas, nutricionistas e cuidadores) com suas especialidades e registros profissionais.
+3. Catálogo de Serviços e Cuidados (RF03): O site deve detalhar as modalidades de atendimento oferecidas (ex: moradia permanente, hospedagem temporária/pós-operatório, centro-dia e cuidados paliativos).
+4. Galeria de Fotos e Vídeos da Estrutura (RF04): O visitante deve conseguir navegar por fotos dos quartos, áreas verdes, refeitório e salas de convivência, com opção de ampliar as imagens.
+5. Tour Virtual 360° (RF05): O site deve disponibilizar uma seção interativa para que familiares conheçam as instalações à distância.
+6. Cronograma de Atividades e Rotina (RF06): O sistema deve exibir exemplos da rotina diária dos residentes (horários de refeições, fisioterapia, musicoterapia, oficinas de memória e lazer).
+7. Formulário de Agendamento de Visita (RF07): O usuário deve poder preencher um formulário escolhendo data, turno desejado e dados de contato para agendar uma visita presencial.
+8. Botão Flutuante de WhatsApp (RF08): O site deve conter um botão fixo em todas as páginas que redireciona diretamente para o WhatsApp da recepção com uma mensagem pré-preenchida.
+9. Formulário de Contato / Dúvidas (RF09): O visitante deve conseguir enviar mensagens gerais por e-mail diretamente pelo site, informando nome, telefone, e-mail e o assunto.
+10. Mapa de Localização Interativo (RF10): O site deve integrar um mapa (como Google Maps) mostrando o endereço exato do lar, pontos de referência e botão para traçar rotas.
+11. Depoimentos de Familiares (RF11): O sistema deve exibir uma seção com avaliações e relatos reais de familiares de residentes atuais ou antigos.
+12. Perguntas Frequentes - FAQ (RF12): O site deve apresentar uma lista expansível com respostas para dúvidas comuns (horários de visita, enxoval necessário, política de medicamentos, etc.).
+13. Blog / Artigos Informativos (RF13): O sistema deve ter uma área para publicação de artigos sobre saúde do idoso, prevenção de doenças e bem-estar na terceira idade.
+14. Portal de Trabalhe Conosco (RF14): O site deve disponibilizar um formulário simples para envio de currículos de profissionais interessados em trabalhar na instituição.
+15. Painel Simplificado de Edição - CMS (RF15): O administrador do lar deve conseguir atualizar textos, trocar fotos da galeria e publicar novos artigos no blog sem precisar alterar o código do site.
+
+
+Requisitos Nao funcionais
+1. Acessibilidade Visual para Terceira Idade (RNF01 - Usabilidade): O site deve utilizar fontes legíveis (mínimo de 16px no corpo do texto), alto contraste entre texto e fundo, e botões grandes e bem espaçados.
+2. Design Responsivo (RNF02 - Portabilidade): O layout deve se adaptar perfeitamente a smartphones, tablets e computadores, garantindo que o botão de contato e o menu funcionem sem cortes.
+3. Tempo de Carregamento Rápido (RNF03 - Desempenho): Todas as páginas devem carregar em menos de 2,5 segundos, mesmo em conexões móveis instáveis, utilizando imagens otimizadas (formato WebP).
+4. Otimização para Buscadores - SEO Local (RNF04 - Visibilidade): O site deve seguir boas práticas de SEO (tags semânticas, meta descrições e dados estruturados) para aparecer nas primeiras posições quando buscarem por "lar de idosos na [nome da cidade]".
+5. Certificado de Segurança SSL (RNF05 - Segurança): O site deve operar exclusivamente sob protocolo HTTPS, exibindo o cadeado de segurança para transmitir confiança aos visitantes.
+6. Proteção contra Spam nos Formulários (RNF06 - Segurança): Os formulários de contato e agendamento de visita devem possuir validação (como reCAPTCHA invisível ou honeypot) para evitar mensagens automáticas indesejadas.
+7. Conformidade com a LGPD (RNF07 - Legal): O site deve apresentar aviso de cookies, política de privacidade clara e caixa de consentimento antes do envio de dados nos formulários de contato ou currículos.
+8. Direito de Imagem dos Residentes (RNF08 - Legal/Ética): Nenhuma foto ou vídeo que identifique residentes pode ser publicada sem o registro documental de autorização expressa dos responsáveis legais.
+9. Alta Disponibilidade (RNF09 - Confiabilidade): A hospedagem do site deve garantir disponibilidade mínima de 99,9% ao mês, evitando que familiares encontrem o site fora do ar em momentos de urgência.
+10. Compatibilidade de Navegadores (RNF10 - Compatibilidade): O site deve funcionar corretamente nas versões atuais e anteriores do Chrome, Safari, Edge e Firefox, além dos navegadores internos do Instagram e Facebook.
+11. Identidade Visual Acolhedora (RNF11 - Estética/UX): A paleta de cores e a tipografia devem transmitir calma, limpeza, respeito e acolhimento, evitando cores agressivas ou poluição visual.
+12. Facilidade de Navegação (RNF12 - Usabilidade): Qualquer visitante deve conseguir encontrar o telefone, o endereço ou o botão de agendar visita em no máximo 2 cliques a partir da página inicial.
+13. Backup Periódico da Hospedagem (RNF13 - Recuperação): Os arquivos do site e o banco de dados do CMS devem ter backups automáticos semanais para restauração rápida em caso de falha.
+14. Integração com Analytics (RNF14 - Monitoramento): O site deve suportar a inserção de ferramentas de métricas (como Google Analytics) para acompanhar quantos visitantes acessam o site e quantos clicam no WhatsApp.
+15. Baixo Custo de Manutenção (RNF15 - Manutenibilidade): A arquitetura do site deve ser construída com tecnologias padrão de mercado (ex: WordPress bem estruturado ou gerador de site estático) para facilitar futuras manutenções por qualquer desenvolvedor.
